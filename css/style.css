@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #222222;
+  color: AliceBlue;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  font: 200 75px sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+hr {
+  background: gold;
+  height: 2px;
+  border: none;
+  border-radius: 999px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  tab-size: 2;
+  overflow: none;
+  background: transparent;
+  border: 1px solid dodgerblue;
+  padding: 15px 20px;
+  font: 300 15px monospace;
+  color: AliceBlue;
+  word-spacing: 2px;
+  letter-spacing: 0.75px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1000px;
+}
+button {
+  background: transparent;
+  border: 1px solid lime;
+  border-radius: 999px;
+  padding: 15px 35px;
+  font: 200 30px sans-serif;
+  color: AliceBlue;
+}
+#filename {
+  background: transparent;
+  border: 1px solid purple;
+  font: 300 20px monospace;
+  text-align: center;
+  color: AliceBlue;
+  padding: 20px 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 999px;
+}
