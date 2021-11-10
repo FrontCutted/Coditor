@@ -6,12 +6,11 @@
   "background_color": "black",
   "theme_color": "black",
   "orientation": "any",
-  "icons": [
-    {
-      "src": "/images/icon-72x72.png",
-      "type": "image/png",
-      "sizes": "72x72"
-    },
+  "icons": [{
+    "src": "/images/icon-72x72.png",
+    "type": "image/png",
+    "sizes": "72x72"
+  },
     {
       "src": "/images/icon-96x96.png",
       "type": "image/png",
@@ -46,8 +45,103 @@
       "src": "/images/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
-    }
-  ],
+    },
+    {
+      "src": "/images/icon-810x810.png",
+      "type": "image/png",
+      "sizes": "810x810"
+    },
+    {
+      "src": "/images/icon-m-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-m-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-m-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-m-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-m-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-m-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-m-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    }],
   "describtion": "The Simple Lightweight Useless Code Editor",
-  "scope": "/"
+  "scope": "/",
+  "screenshots": [{
+    "src": "/images/ss-1.png",
+    "sizes": "540x960",
+    "type": "image/png",
+    "platform": "narrow",
+    "label": "Name your file"
+  },
+    {
+      "src": "/images/ss-2.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Write Text"
+    },
+    {
+      "src": "/images/ss-3.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Write Code"
+    },
+    {
+      "src": "/images/ss-4.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Minimalist Design"
+    },
+    {
+      "src": "/images/ss-5.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Very Lightweight"
+    },
+    {
+      "src": "/images/ss-6.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Download Your Texts/Codes"
+    }],
+  "categories": ["utilities"],
+  "shortcuts": [{
+    "name": "start",
+    "url": "/index.html",
+    "describtion": "Start Writing Again..."
+  }],
+  "dir": "ltr"
 }
