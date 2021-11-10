@@ -9,5 +9,5 @@ function dl(content, filename = 'code.txt') {
 function cp(){
   var codes = document.getElementById("codes");
   var filename = document.getElementById("filename");
-  dl(codes, filename);
+  dl(codes.value, filename.value);
 }
