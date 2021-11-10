@@ -7,7 +7,7 @@ function dl(content, filename = 'code.txt') {
   URL.revokeObjectURL(link.href);
 }
 function cp(){
-  var codes = document.getElementById("codes");
-  var filename = document.getElementById("filename");
-  dl(codes.value, filename.value);
+  var codes = document.getElementById("codes").value;
+  var filename = document.getElementById("filename").value;
+  dl(codes, filename);
 }
