@@ -6,11 +6,12 @@
   "background_color": "black",
   "theme_color": "black",
   "orientation": "any",
-  "icons": [{
-    "src": "/images/icon-72x72.png",
-    "type": "image/png",
-    "sizes": "72x72"
-  },
+  "icons": [
+    {
+      "src": "/images/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
     {
       "src": "/images/icon-96x96.png",
       "type": "image/png",
@@ -92,16 +93,18 @@
       "type": "image/png",
       "sizes": "384x384",
       "purpose": "maskable"
-    }],
+    }
+  ],
   "describtion": "The Simple Lightweight Useless Code Editor",
   "scope": "/",
-  "screenshots": [{
-    "src": "/images/ss-1.png",
-    "sizes": "540x960",
-    "type": "image/png",
-    "platform": "narrow",
-    "label": "Name your file"
-  },
+  "screenshots": [
+    {
+      "src": "/images/ss-1.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Name your file"
+    },
     {
       "src": "/images/ss-2.png",
       "sizes": "540x960",
@@ -136,12 +139,16 @@
       "type": "image/png",
       "platform": "narrow",
       "label": "Download Your Texts/Codes"
-    }],
+    }
+  ],
   "categories": ["utilities"],
-  "shortcuts": [{
-    "name": "start",
-    "url": "/index.html",
-    "describtion": "Start Writing Again..."
-  }],
-  "dir": "ltr"
+  "shortcuts": [
+    {
+      "name": "start",
+      "url": "/index.html",
+      "describtion": "Start Writing Again..."
+    }
+  ],
+  "dir": "ltr",
+  "describtion": "The simple useful Writing/Coding Area"
 }
