@@ -8,88 +8,43 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/images/icon-72x72.png",
-      "type": "image/png",
-      "sizes": "72x72"
-    },
-    {
-      "src": "/images/icon-96x96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "/images/icon-128x128.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    },
-    {
-      "src": "/images/icon-144x144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "/images/icon-152x152.png",
-      "type": "image/png",
-      "sizes": "152x152"
-    },
-    {
-      "src": "/images/icon-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/images/icon-384x384.png",
-      "type": "image/png",
-      "sizes": "384x384"
-    },
-    {
-      "src": "/images/icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "/images/icon-810x810.png",
-      "type": "image/png",
-      "sizes": "810x810"
-    },
-    {
-      "src": "/images/icon-m-48x48.png",
+      "src": "/img/icon-m-48.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "maskable"
     },
     {
-      "src": "/images/icon-m-72x72.png",
+      "src": "/img/icon-m-72.png",
       "type": "image/png",
       "sizes": "72x72",
       "purpose": "maskable"
     },
     {
-      "src": "/images/icon-m-96x96.png",
+      "src": "/img/icon-m-96.png",
       "type": "image/png",
       "sizes": "96x96",
       "purpose": "maskable"
     },
     {
-      "src": "/images/icon-m-128x128.png",
+      "src": "/img/icon-m-128.png",
       "type": "image/png",
       "sizes": "128x128",
       "purpose": "maskable"
     },
     {
-      "src": "/images/icon-m-192x192.png",
+      "src": "/img/icon-m-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/images/icon-m-512x512.png",
+      "src": "/img/icon-m-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     },
     {
-      "src": "/images/icon-m-384x384.png",
+      "src": "/img/icon-m-384x384.png",
       "type": "image/png",
       "sizes": "384x384",
       "purpose": "maskable"
@@ -99,42 +54,42 @@
   "scope": "/",
   "screenshots": [
     {
-      "src": "/images/ss-1.png",
+      "src": "/img/ss-1.png",
       "sizes": "540x960",
       "type": "image/png",
       "platform": "narrow",
       "label": "Name your file"
     },
     {
-      "src": "/images/ss-2.png",
+      "src": "/img/ss-2.png",
       "sizes": "540x960",
       "type": "image/png",
       "platform": "narrow",
       "label": "Write Text"
     },
     {
-      "src": "/images/ss-3.png",
+      "src": "/img/ss-3.png",
       "sizes": "540x960",
       "type": "image/png",
       "platform": "narrow",
       "label": "Write Code"
     },
     {
-      "src": "/images/ss-4.png",
+      "src": "/img/ss-4.png",
       "sizes": "540x960",
       "type": "image/png",
       "platform": "narrow",
       "label": "Minimalist Design"
     },
     {
-      "src": "/images/ss-5.png",
+      "src": "/img/ss-5.png",
       "sizes": "540x960",
       "type": "image/png",
       "platform": "narrow",
       "label": "Very Lightweight"
     },
     {
-      "src": "/images/ss-6.png",
+      "src": "/img/ss-6.png",
       "sizes": "540x960",
       "type": "image/png",
       "platform": "narrow",

@@ -10,6 +10,13 @@ body {
   text-align: center;
   padding: 10px;
 }
+body.light {
+  color: #222;
+  background: AliceBlue;
+}
+body.light * {
+  color: #222 !important;
+}
 h2 {
   font: 200 75px sans-serif;
   margin-top: 10px;
@@ -27,7 +34,7 @@ hr {
 textarea {
   width: 100%;
   tab-size: 2;
-  overflow: none;
+  overflow-x: auto;
   background: transparent;
   border: 1px solid dodgerblue;
   padding: 15px 20px;
@@ -35,6 +42,7 @@ textarea {
   color: AliceBlue;
   word-spacing: 1.6px;
   letter-spacing: 0.7px;
+  white-space: nowrap;
   line-height: 1.5;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -58,4 +66,20 @@ button {
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 999px;
+}
+h4 {
+  margin: 10px 20px 1px 20px;
+  font: 300 20px sans-serif;
+}
+.options button {
+  all: initial;
+  margin: 0;
+  color: AliceBlue;
+  border: 1px solid lime;
+  padding: 10px 5px;
+  margin: 10px 20px;
+  font: 300 18px sans-serif;
+}
+.options button.disabled {
+  opacity: 0.5;
 }

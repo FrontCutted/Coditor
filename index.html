@@ -20,12 +20,16 @@
     <meta name="background-color" content="black">
     <title>Coditor</title>
     <script src="js/sw.js"></script>
-	 <script src="js/app.js" defer></script>
+	  <script src="js/app.js" defer></script>
     <script src="js/sw-reg.js"></script>
   </head>
   <body>
 
 	  <h2>Coditor</h2>
+	  <h4>Options:</h4>
+	  <div class="options">
+	    <button onclick="document.body.classList.toggle('light');">Toggle Theme</button>
+	  </div>
 	  <hr>
 	  <textarea id="codes" placeholder="Your Code Here..."></textarea>
 	  <input type="text" value="code.txt" id="filename">
