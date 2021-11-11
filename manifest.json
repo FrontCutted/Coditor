@@ -48,9 +48,15 @@
       "type": "image/png",
       "sizes": "384x384",
       "purpose": "maskable"
+    },
+    {
+      "src": "img/512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
-  "describtion": "The Simple Lightweight Useless Code Editor",
+  "describtion": "The simple useful Writing/Coding Area",
   "scope": "/",
   "screenshots": [
     {
@@ -96,7 +102,9 @@
       "label": "Download Your Texts/Codes"
     }
   ],
-  "categories": ["utilities"],
+  "categories": [
+    "utilities"
+  ],
   "shortcuts": [
     {
       "name": "start",
@@ -104,6 +112,5 @@
       "describtion": "Start Writing Again..."
     }
   ],
-  "dir": "ltr",
-  "describtion": "The simple useful Writing/Coding Area"
+  "dir": "ltr"
 }

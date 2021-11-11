@@ -19,9 +19,12 @@
     <meta name="theme-color" content="black">
     <meta name="background-color" content="black">
     <title>Coditor</title>
-    <script src="js/sw.js"></script>
 	  <script src="js/app.js" defer></script>
-    <script src="js/sw-reg.js"></script>
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+    </script>
   </head>
   <body>
 
