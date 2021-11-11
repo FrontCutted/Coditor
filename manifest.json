@@ -50,11 +50,7 @@
       "purpose": "maskable"
     },
     {
-<<<<<<< HEAD
       "src": "img/512.png",
-=======
-      "src": "https://github.com/FrontCutted/Coditor/raw/King/img/icon-m-512.png",
->>>>>>> 2e4a61264d64c35f35b44d6ad1a9128b54a1f0fa
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
