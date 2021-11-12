@@ -1,4 +1,4 @@
-const PRECACHE = 'FC-Coditor';
+const PRECACHE = 'FC-Coditor-v2';
 const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   '/',
@@ -11,14 +11,13 @@ const PRECACHE_URLS = [
   '/img/ss-4.png',
   '/img/ss-5.png',
   '/img/ss-6.png',
-  '/img/512.png',
-  '/img/icon-m-48.png',
-  '/img/icon-m-72.png',
-  '/img/icon-m-96.png',
-  '/img/icon-m-128.png',
-  '/img/icon-m-192.png',
-  '/img/icon-m-384.png',
-  '/img/icon-m-512.png'
+  '/img/icon.png',
+  '/img/48.png',
+  '/img/72.png',
+  '/img/96.png',
+  '/img/144.png',
+  '/img/192.png',
+  '/img/512.png'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(
