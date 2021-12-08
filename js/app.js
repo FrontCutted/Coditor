@@ -11,3 +11,4 @@ function cp(){
   var filename = document.getElementById("filename").value;
   dl(codes, filename);
 }
+var codes = document.getElementById("codes");

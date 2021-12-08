@@ -1,9 +1,10 @@
-const PRECACHE = 'FC-Coditor-v2';
+const PRECACHE = 'FC-Coditor-v3';
 const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   '/',
   '/index.html',
   '/css/style.css',
+  '/fonts/koodak.ttf'
   '/js/app.js',
   '/img/ss-1.png',
   '/img/ss-2.png',

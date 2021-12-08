@@ -1,3 +1,8 @@
+@font-face {
+  font-family: koodak;
+  src: url(../fonts/koodak.ttf);
+}
+
 * {
   box-sizing: border-box;
   outline: none;
@@ -82,4 +87,8 @@ h4 {
 }
 .options button.disabled {
   opacity: 0.5;
+}
+.rtl {
+  direction: rtl;
+  font-family: "koodak";
 }
