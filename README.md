@@ -9,11 +9,12 @@ It's features are:
 - Name Your File
 - Download Your Code
 - Installable: This is a PWA
+- Toggle **light**/**dark** theme
+- Change Direction by: `RTL / LTR` button
 
 -----
 
 ***This features may come soon!***
-- Toggle **light**/**dark** theme
 - **Keep Code** Even After Refresh
 - Auto Complete
 - Auto Indent
