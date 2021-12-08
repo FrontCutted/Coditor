@@ -92,3 +92,9 @@ h4 {
   direction: rtl;
   font-family: "koodak";
 }
+#me {
+  display: block;
+  color: dodgerblue;
+  text-decoration: none;
+  margin-top: 10px;
+}
